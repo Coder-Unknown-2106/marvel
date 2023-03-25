@@ -1,0 +1,29 @@
+#main{
+
+    background-image: linear-gradient(rgb(0,0,0,0.8),rgb(0,0,0,0.8)), url(/images/main2.jpeg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+#row .col{
+    transition: transform 1s;
+}
+#row .col:hover{
+    transform: scale(1.1);
+    
+}
+
+#top-img{
+    transition: transform 1s;
+    opacity: 0.8;
+}
+
+#top-img:hover{
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+
+
